@@ -24,10 +24,11 @@ cp docker-compose-lemp/
 Una vez iniciado el stack LEMP estará funcionando correctamente.
 
 # Configuración
-Para la configuración se pueden ver las variables necesarias para el archivo .env en el archivo example.env. Es necesario modificar a necesidad
+Para la configuración se pueden ver las variables necesarias para el archivo .env en el archivo example.env. Es necesario modificarlo a necesidad.
 
 ### PHP
 **custom-php.ini** - La configuración de PHP se puede manejar por el archivo custom-php.ini
+> Por defecto trae el modulo mysqli para el uso de php y la base de datos MySQL
 
 ---
 ### NGINX
@@ -38,6 +39,7 @@ Para la configuración se pueden ver las variables necesarias para el archivo .e
 ---
 ### MYSQL
 **.env** - Las credenciales para la base de datos mysql se podrán manejar a través del archivo .env
+> A tener en cuenta que el puerto de la base de datos MySQL no se encuentra expuesto
 
 ---
 ### ADMINER
