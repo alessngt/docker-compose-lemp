@@ -1,6 +1,8 @@
 # LEMP Stack con docker compose
 Este docker compose configura un entorno LEMP (Linux, Nginx, MySQL, PHP) utilizando Docker Compose para desarrollar y gestionar aplicaciones web con servicios de Nginx, PHP-FPM y MySQL de una manera sencilla. Adicionalmente con ADMINER para gestionar la base de datos sin necesidad de un SGBD.
 
+![4124123123](https://github.com/user-attachments/assets/4ac91d41-da24-481b-94dc-45df27ad724f)
+
 Este stack LEMP contiene lo siguiente:
 
 - NGINX
