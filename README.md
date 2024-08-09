@@ -33,6 +33,7 @@ Para la configuración se pueden ver las variables necesarias para el archivo .e
 ---
 ### NGINX
 **.env** - Los puertos de NGINX se pueden manejar a través del archivo .env
+
 **app/** - Directorio que contendrá los archivos de la aplicación web (HTML/PHP)
 > La configuración de NGINX se puede manejar a través de los archivos nginx.conf y/o default.conf
 
